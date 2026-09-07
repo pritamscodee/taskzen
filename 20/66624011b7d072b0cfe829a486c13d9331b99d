@@ -1,0 +1,23 @@
+components/landing/landing-hero.tsx
+  s_728ebd2b0cc4b2::t_3f045bccae0313 10,18,24,26
+  s_728ebd2b0cc4b2::t_1c947574ccdce0 86-87
+  s_728ebd2b0cc4b2::t_e88400eb104c18 81-82
+components/landing/landing-dark-band.tsx
+  s_728ebd2b0cc4b2::t_6622fd5cb8cecb 14,20
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "2066624011b7d072b0cfe829a486c13d9331b99d",
+  "prompts": {},
+  "sessions": {
+    "s_728ebd2b0cc4b2": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f827c1712ffe9yiE5oLRHawTe7",
+        "model": "unknown"
+      },
+      "human_author": "pritamscodee <codewithpritam29@gmail.com>"
+    }
+  }
+}
