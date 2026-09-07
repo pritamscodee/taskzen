@@ -11,13 +11,13 @@ const ACTIVITY = [
   },
   {
     initials: "MK",
-    color: "bg-teal",
+    color: "bg-accent-teal",
     text: "Assigned “Invite design team” to Aisha",
     time: "12s ago",
   },
   {
     initials: "AJ",
-    color: "bg-amber",
+    color: "bg-accent-amber",
     text: "Completed “Wire up live sync”",
     time: "48s ago",
   },

@@ -7,7 +7,7 @@ const KANBAN = [
     label: "To do",
     dot: "bg-muted-soft",
     cards: [
-      { title: "Draft launch checklist", tag: "Marketing", accent: "bg-amber" },
+      { title: "Draft launch checklist", tag: "Marketing", accent: "bg-accent-amber" },
       { title: "Q3 roadmap review", tag: "Planning", accent: "bg-coral" },
     ],
   },
@@ -15,15 +15,15 @@ const KANBAN = [
     label: "In progress",
     dot: "bg-coral",
     cards: [
-      { title: "Port the kanban view", tag: "Engineering", accent: "bg-teal" },
+      { title: "Port the kanban view", tag: "Engineering", accent: "bg-accent-teal" },
       { title: "Invite design team", tag: "Members", accent: "bg-coral" },
     ],
   },
   {
     label: "Done",
-    dot: "bg-teal",
+    dot: "bg-accent-teal",
     cards: [
-      { title: "Wire up live sync", tag: "Engineering", accent: "bg-teal" },
+      { title: "Wire up live sync", tag: "Engineering", accent: "bg-accent-teal" },
     ],
   },
 ];
@@ -78,13 +78,13 @@ export function LandingHero() {
             <div className="flex items-center justify-between px-1 pb-3">
               <div className="flex items-center gap-1.5">
                 <span className="size-2.5 rounded-full bg-coral/80" />
-                <span className="size-2.5 rounded-full bg-amber/80" />
-                <span className="size-2.5 rounded-full bg-teal/80" />
+                <span className="size-2.5 rounded-full bg-accent-amber/80" />
+                <span className="size-2.5 rounded-full bg-accent-teal/80" />
               </div>
               <span className="inline-flex items-center gap-1.5 rounded-full border border-hairline bg-canvas px-2.5 py-1 text-[11px] font-medium text-body">
                 <span className="relative flex size-1.5">
-                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal opacity-60" />
-                  <span className="relative inline-flex size-1.5 rounded-full bg-teal" />
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent-teal opacity-60" />
+                  <span className="relative inline-flex size-1.5 rounded-full bg-accent-teal" />
                 </span>
                 Live
               </span>
