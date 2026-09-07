@@ -1,0 +1,33 @@
+app/page.tsx
+  s_728ebd2b0cc4b2::t_cdf230e8836734 2,10-11
+components/landing/landing-dark-band.tsx
+  s_728ebd2b0cc4b2::t_4e14bdddd22a2d 1-98
+components/landing/landing-footer.tsx
+  s_728ebd2b0cc4b2::t_ad24b99aed229d 1-64
+components/landing/landing-features.tsx
+  s_728ebd2b0cc4b2::t_23c0fb0407a708 1-92
+components/landing/landing-page.tsx
+  s_728ebd2b0cc4b2::t_372a38ea9fae13 1-21
+components/landing/landing-hero.tsx
+  s_728ebd2b0cc4b2::t_aa9413a99e0a5f 1-137
+components/landing/landing-nav.tsx
+  s_728ebd2b0cc4b2::t_948fc96e8a9124 1-50
+components/landing/landing-cta.tsx
+  s_728ebd2b0cc4b2::t_79e51ff5e910a9 1-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "5018ca6afd0c42afc746f7abadedd9c976797276",
+  "prompts": {},
+  "sessions": {
+    "s_728ebd2b0cc4b2": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f827c1712ffe9yiE5oLRHawTe7",
+        "model": "unknown"
+      },
+      "human_author": "pritamscodee <codewithpritam29@gmail.com>"
+    }
+  }
+}
