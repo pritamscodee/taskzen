@@ -6,7 +6,7 @@ const PUBLIC_PATHS = ["/", "/login", "/signup", "/invite"];
 function hasSessionCookie(request: NextRequest) {
   return request.cookies
     .getAll()
-    .some((cookie) => cookie.name.startsWith("better-auth.session_token"));
+    .some((cookie) => cookie.name.endsWith("better-auth.session_token"));
 }
 
 export function proxy(request: NextRequest) {
