@@ -1,0 +1,19 @@
+components/app-shell.tsx
+  s_cc1f473b107ba6::t_f4814ea3a3214c 30,33-34,37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "4b0201c4e1a2ebe5f0ea75770d517178d232d044",
+  "prompts": {},
+  "sessions": {
+    "s_cc1f473b107ba6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f804a555cffed49DY32opy00Tw",
+        "model": "unknown"
+      },
+      "human_author": "pritamscodee <codewithpritam29@gmail.com>"
+    }
+  }
+}
