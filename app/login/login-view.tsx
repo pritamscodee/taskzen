@@ -61,7 +61,6 @@ export function LoginView() {
             toast.error(message);
             return;
           }
-          await authClient.getSession();
           toast.success("Signed in — welcome back.");
           router.replace(redirect);
         }}

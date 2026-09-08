@@ -27,13 +27,14 @@ function initialsOf(name: string, email: string) {
 export function AppShell({ children }: { children: React.ReactNode }) {
   const router = useRouter();
   const pathname = usePathname();
-  const { data: session, isPending } = authClient.useSession();
+  const { data: session, isPending, isRefetching } = authClient.useSession();
 
   useEffect(() => {
-    if (!isPending && !session) {
+    if (isPending || isRefetching) return;
+    if (!session) {
       router.replace("/login");
     }
-  }, [isPending, router, session]);
+  }, [isPending, isRefetching, router, session]);
 
   if (isPending) {
     return (
