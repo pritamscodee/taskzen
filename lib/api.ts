@@ -15,7 +15,7 @@ export async function api<T>(path: string, init?: RequestInit): Promise<T> {
     headers.set('Content-Type', 'application/json');
   }
 
-  const res = await fetch(`${API_URL}${path}`, {
+  const res = await fetch(`/api/proxy${path}`, {
     ...init,
     credentials: 'include',
     headers,
