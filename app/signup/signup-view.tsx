@@ -66,6 +66,7 @@ export function SignupView() {
             toast.error(message);
             return;
           }
+          await authClient.getSession();
           toast.success("Account created — welcome to Taskzen.");
           router.replace(redirect);
         }}
