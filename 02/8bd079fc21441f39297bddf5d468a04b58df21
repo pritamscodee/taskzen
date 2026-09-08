@@ -1,0 +1,21 @@
+app/signup/signup-view.tsx
+  s_cc1f473b107ba6::t_827d0e290d5cb9 69
+app/login/login-view.tsx
+  s_cc1f473b107ba6::t_69ac3e6c5f780e 64
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "028bd079fc21441f39297bddf5d468a04b58df21",
+  "prompts": {},
+  "sessions": {
+    "s_cc1f473b107ba6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f804a555cffed49DY32opy00Tw",
+        "model": "unknown"
+      },
+      "human_author": "pritamscodee <codewithpritam29@gmail.com>"
+    }
+  }
+}
