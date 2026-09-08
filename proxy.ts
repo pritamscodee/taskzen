@@ -9,7 +9,7 @@ function hasSessionCookie(request: NextRequest) {
     .some((cookie) => cookie.name.startsWith("better-auth.session_token"));
 }
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
   const isPublic = PUBLIC_PATHS.some(
     (path) => pathname === path || pathname.startsWith(`${path}/`),
