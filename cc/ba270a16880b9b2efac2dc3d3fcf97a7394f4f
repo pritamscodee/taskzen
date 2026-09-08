@@ -1,0 +1,25 @@
+lib/auth-client.ts
+  s_cc1f473b107ba6::t_0ff22c75b29ffb 4-7
+lib/api.ts
+  s_cc1f473b107ba6::t_6bf5e0fc422da0 18
+app/api/proxy/[...all]/route.ts
+  s_cc1f473b107ba6::t_0f94fa91e9efa3 1-70
+app/api/auth/[...all]/route.ts
+  s_cc1f473b107ba6::t_5dff9edbb8646b 1-70
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "ccba270a16880b9b2efac2dc3d3fcf97a7394f4f",
+  "prompts": {},
+  "sessions": {
+    "s_cc1f473b107ba6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f804a555cffed49DY32opy00Tw",
+        "model": "unknown"
+      },
+      "human_author": "pritamscodee <codewithpritam29@gmail.com>"
+    }
+  }
+}
