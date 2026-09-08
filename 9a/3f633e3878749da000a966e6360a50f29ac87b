@@ -1,0 +1,19 @@
+middleware.ts
+  s_9156a2c353e6e6::t_c4b60eec0b6035 1-39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "9a3f633e3878749da000a966e6360a50f29ac87b",
+  "prompts": {},
+  "sessions": {
+    "s_9156a2c353e6e6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f801d709effeHLoyaBSShHi9k5",
+        "model": "unknown"
+      },
+      "human_author": "pritamscodee <codewithpritam29@gmail.com>"
+    }
+  }
+}
